@@ -1,6 +1,7 @@
 package model;
 
 public class Calculator {
+	
 	private double numberDisplay;
 
 	public double getNumberDisplay() {
@@ -9,6 +10,10 @@ public class Calculator {
 
 	public void setNumberDisplay(double numberDisplay) {
 		this.numberDisplay = numberDisplay;
+	}
+	
+	public void clearAll(Calculator calculator) {
+		calculator.setNumberDisplay(0);
 	}
 	
 	

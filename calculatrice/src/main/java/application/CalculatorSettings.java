@@ -1,12 +1,11 @@
 package application;
 
 import model.Calculator;
-import model.ClearAll;
 
 public class CalculatorSettings {
 	
 	private Calculator calculator;
-	private ClearAll clearAll;
+
 
 	public double addNumbers(double number) {
 		calculator.setNumberDisplay(number);
@@ -14,6 +13,6 @@ public class CalculatorSettings {
 	}
 	
 	public void clearAll() {
-		clearAll.clearAll(calculator);
+		calculator.clearAll(calculator);
 	}
 }

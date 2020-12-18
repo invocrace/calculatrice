@@ -11,15 +11,7 @@ public class DoMultiplication {
 		return multiplication;
 	}
 
-
-
-	public void setMultiplication(Multiplication multiplication) {
-		this.multiplication = multiplication;
-	}
-
-
-
-	public double DoMultiplication(Calculator calculator, double number) {
+	public double doMultiplication(Calculator calculator, double number) {
 		return multiplication.multiplication(calculator.getNumberDisplay(), number);
 	}
 	
